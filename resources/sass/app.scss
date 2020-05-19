@@ -5,4 +5,12 @@
 @import 'variables';
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import '../assets/plugins/custom/fullcalendar/fullcalendar.bundle.css';
+@import '../assets/plugins/custom/fullcalendar/fullcalendar.bundle.css';
+@import '../assets/plugins/global/plugins.bundle.css';
+@import '../assets/css/style.bundle.css';
+@import '../assets/css/skins/header/base/light.css';
+@import '../assets/css/skins/header/menu/light.css';
+@import '../assets/css/skins/brand/dark.css';
+@import '../assets/css/skins/aside/dark.css';
+@import '../assets/css/pages/login/login-2.css';

@@ -12,6 +12,12 @@ try {
 
     require('bootstrap');
 } catch (e) {}
+require('../assets/js/color.js');
+require('../assets/plugins/global/plugins.bundle.js');
+require('../assets/js/scripts.bundle.js');
+require('../assets/plugins/custom/fullcalendar/fullcalendar.bundle.js');
+require('../assets/plugins/custom/gmaps/gmaps.js');
+require('../assets/js/pages/dashboard.js');
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests

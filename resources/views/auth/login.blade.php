@@ -9,7 +9,7 @@
 @section('title', '| Login Page')
 @section('styles')
     <!--begin::Page Custom Styles(used by this page) -->
-        <link href="assets/css/pages/login/login-2.css" rel="stylesheet" type="text/css" />
+{{--        <link href="assets/css/pages/login/login-2.css" rel="stylesheet" type="text/css" />--}}
 
         <!--end::Page Custom Styles -->
     @stop
@@ -93,3 +93,6 @@
     </div>
     </div>
 </div>
+@extends('includes.scripts')
+</body>
+</html>

@@ -47,12 +47,10 @@
     @yield('content')
 
     <!-- end:: Content -->
-    </div>
 
     <!-- begin:: Footer -->
 @include('includes.footer')
 <!-- end:: Footer -->
-</div>
 </div>
 </div>
 
@@ -61,7 +59,6 @@
 <!-- begin::Quick Panel -->
 @include('includes.navbar.quick-panel')
 <!-- end::Quick Panel -->
-
 <!-- begin::Scrolltop -->
 <div id="kt_scrolltop" class="kt-scrolltop">
     <i class="fa fa-arrow-up"></i>
